@@ -5,6 +5,7 @@
   background-position: 40%;
   background-size: 6%;
   background-image: url(/img/search-solid.svg);
+  background-repeat: no-repeat;
 }
 
 input.empty {
@@ -38,10 +39,19 @@ input.empty {
 
 .rightpanellinks {
   text-decoration: none;
-  color: lightgrey;
+  color: white;
+  border: 0px;
 }
 
 .rightpanellinks:hover {
   text-decoration: none;
-  color: lightgrey;
+  color: white;
+}
+
+.bookmarkright {
+  margin-left: 57% !important;
+}
+
+.rightit {
+  float: right;
 }
